@@ -36,7 +36,7 @@ public class Person5 {
         return input;
     } else {
       String ret = "";
-      ret = input.subString(2);
+      ret = input.substring(2);
       ret += input.charAt(0);
       ret += input.charAt(1);
     }
