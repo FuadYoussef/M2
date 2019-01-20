@@ -44,6 +44,7 @@ public class Person2 {
         char c = s.charAt(a);
         s = s.substring(0, a) + s.substring(a+1, s.length());
         s += c;
+        return s;
     }
 	/**
 	 * Return a string rep of this object
