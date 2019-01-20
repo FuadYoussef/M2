@@ -39,6 +39,7 @@ public class Person5 {
       ret = input.substring(2);
       ret += input.charAt(0);
       ret += input.charAt(1);
+      return ret;
     }
 
 	}
