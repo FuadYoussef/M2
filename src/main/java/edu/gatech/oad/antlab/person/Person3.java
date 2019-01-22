@@ -45,9 +45,9 @@ public class Person3 {
         String reversed = "";
         String[] letters = new String[input.length()];
         for (int x = 0; x < input.length() - 1; x++) {
-            letters[x++] = input.substring(x, x + 1);
+            letters[x] = input.substring(x, x + 1);
         }
-        for (int i = letters.length; i > 0; i--) {
+        for (int i = letters.length-1; i >= 0; i--) {
             reversed += letters[i];
         }
         System.out.println(reversed);
