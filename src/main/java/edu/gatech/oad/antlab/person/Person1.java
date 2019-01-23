@@ -44,8 +44,16 @@ public class Person1 {
 
     }
 
-	  //Person 1 put your implementation here
-	  return null;
+	/**
+	 * Return a string rep of this object
+	 * that varies with an input string
+	 *
+	 * @param input the varying string
+	 * @return the string representing the
+	 *         object
+	 */
+	public String toString(String input) {
+	  return name + calc(input);
 	}
 
 }
